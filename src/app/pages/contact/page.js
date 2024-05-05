@@ -5,7 +5,7 @@ const ContactPage = () => {
         <div className="space-y-4">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-black">Get in touch</h1>
           <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed text-slate-600 xl:text-xl/relaxed">
-            Have a question or want to work together? Fill out the form and we'll get back to you as soon as possible.
+            Have a question or want to work together? Fill out the form and we will get back to you as soon as possible.
           </p>
         </div>
         <div className="w-full max-w-md space-y-4">
