@@ -1,5 +1,6 @@
 import Review from "@/app/components/Review"
 import Input from "@/app/components/Input"
+import Image from "next/image"
 
 const DoctorPage = ({ params }) => {
   return (
@@ -9,7 +10,7 @@ const DoctorPage = ({ params }) => {
           <div className="flex items-center space-x-4">
             <div class="avatar">
               <div class="w-36 rounded-full">
-                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                <Image alt="image" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
               </div>
             </div>
             <div>

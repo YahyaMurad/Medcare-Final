@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const MedicalAppointment = ({ name, field, date, isTest }) => {
   return (
@@ -8,7 +9,7 @@ const MedicalAppointment = ({ name, field, date, isTest }) => {
       ) : (
         <div class="avatar">
           <div class="w-12 rounded-full">
-            <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            <Image alt="image" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
           </div>
         </div>
       )}

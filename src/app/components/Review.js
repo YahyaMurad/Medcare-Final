@@ -1,9 +1,11 @@
+import Image from "next/image"
+
 const Review = () => {
   return (
     <div className="flex items-start space-x-4">
       <div class="avatar">
         <div class="w-16 rounded-full">
-          <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+          <Image alt="image" src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
         </div>
       </div>
       <div>
@@ -19,7 +21,7 @@ const Review = () => {
         </div>
         <p className="text-sm text-gray-700">John Doe - 1 week ago</p>
         <p className="mt-2 text-black">
-          Aute in nisi est nulla do aliqua commodo fugiat. Ipsum anim non laborum aliquip ex laboris incididunt ea aliqua enim. Consectetur esse enim ut veniam. Eiusmod nulla minim ex laboris dolore laboris sunt eiusmod dolore veniam. Occaecat voluptate amet non ea cillum sunt est in pariatur voluptate sunt esse enim. Duis ea et aute consectetur cillum nostrud labore quis laboris minim.  
+          Aute in nisi est nulla do aliqua commodo fugiat. Ipsum anim non laborum aliquip ex laboris incididunt ea aliqua enim. Consectetur esse enim ut veniam. Eiusmod nulla minim ex laboris dolore laboris sunt eiusmod dolore veniam. Occaecat voluptate amet non ea cillum sunt est in pariatur voluptate sunt esse enim. Duis ea et aute consectetur cillum nostrud labore quis laboris minim.
         </p>
       </div>
     </div>
